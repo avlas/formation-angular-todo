@@ -23,7 +23,7 @@ export class TodoListComponent implements OnInit {
   }
 
   onModifToto(todo): void {
-      console.log('TOOOOOOO', todo);
+      console.log('todo : ', todo.toString());
   }
 
   onAdd(todo): void {
