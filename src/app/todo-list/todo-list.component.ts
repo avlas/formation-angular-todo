@@ -27,7 +27,7 @@ export class TodoListComponent implements OnInit {
   }
 
   onAdd(todo): void {
-      this.todos.push(todo);
+      this.todos.unshift(todo);
   }
 
   onReset(): void {
